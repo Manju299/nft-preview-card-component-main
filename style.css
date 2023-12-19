@@ -57,11 +57,21 @@ p{
     color:var(--clr-primary-blue) ;
 }
 
-.coins-time > .coins, .time{
+.coins-time{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
+
+.coins-time > div img {
+    display: inline;
+}
+
+.coins img{
+    display: inline;
+}
+
 
 
 .author > img{
@@ -73,10 +83,11 @@ p{
 .author{
     display: flex;
     align-items: center;
+    justify-content:space-around ;
 }
 
 .author  p{
     display: inline;
-}  
+    }  
 
 
